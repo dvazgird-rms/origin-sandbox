@@ -1,5 +1,7 @@
 # Origin Sandbox
 
+> Cloned from [Component Library Playground](https://github.com/alanbsmith/component-library-playground).
+
 ## Overview
 
 This is a simple starter to get you up and running with Styled Components. This is intended to provide:
