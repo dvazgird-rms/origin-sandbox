@@ -5,10 +5,12 @@ import { ThemeProvider, Button } from "origin-react";
 function App() {
   return (
     <div>
-      <p>Hello World!</p>
+      <h1>Origin Sandbox</h1>
+      <p>Origin Button wrapped with ThemeProvider (default props)</p>
       <ThemeProvider>
         <Button label="Click Me" />
       </ThemeProvider>
+      <p>Origin Button without ThemeProvider</p>
       <Button label="Click Me" />
     </div>
   );
