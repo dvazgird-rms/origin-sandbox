@@ -6,10 +6,9 @@ function App() {
   return (
     <div>
       <p>Hello World!</p>
-      {/* <ThemeProvider>
-        <p>Wrapped with ThemeProvider!</p>
+      <ThemeProvider>
         <Button label="Click Me" />
-      </ThemeProvider> */}
+      </ThemeProvider>
       <Button label="Click Me" />
     </div>
   );
