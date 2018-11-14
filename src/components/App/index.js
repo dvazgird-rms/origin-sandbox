@@ -12,6 +12,10 @@ function App() {
       </ThemeProvider>
       <p>Origin Button without ThemeProvider</p>
       <Button label="Click Me" />
+      <p>Non-Origin Button wrapped with ThemeProvider</p>
+      <ThemeProvider>
+        <button>Click Me!</button>
+      </ThemeProvider>
     </div>
   );
 }
